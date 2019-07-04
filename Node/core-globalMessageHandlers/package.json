@@ -4,6 +4,12 @@
   "dependencies": {
     "botbuilder": "^3.8.4",
     "dotenv-extended": "^2.0.0",
-    "restify": "^4.3.0"
-  }
+    "restify": "^4.3.0",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
