@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Bot Builder Sample - Send an Attachment",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Microsoft Corp.",
   "license": "MIT",
@@ -25,6 +27,8 @@
     "botbuilder": "^3.8.2",
     "restify": "^4.3.0",
     "swagger-client": "^2.1.32",
-    "dotenv-extended": "^1.0.4"
-  }
+    "dotenv-extended": "^1.0.4",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
