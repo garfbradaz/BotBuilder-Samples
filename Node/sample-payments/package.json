@@ -21,13 +21,13 @@
     "url": "https://github.com/Microsoft/BotBuilder-Samples.git"
   },
   "dependencies": {
-    "base64url": "^2.0.0",
+    "base64url": "^3.0.1",
     "bluebird": "^3.5.0",
     "botbuilder": "^3.8.2",
     "dotenv-extended": "^1.0.4",
     "lodash": "^4.17.4",
     "restify": "^4.3.0",
     "stripe": "^4.15.1",
-    "uuid": "^3.0.1"
+    "uuid": "^14.0.0"
   }
 }

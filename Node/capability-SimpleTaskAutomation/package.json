@@ -11,7 +11,7 @@
   "dependencies": {
     "botbuilder": "^3.8.2",
     "restify": "^4.3.0",
-    "uuid": "^3.0.1"
+    "uuid": "^14.0.0"
   },
   "keywords": [
     "bot"
